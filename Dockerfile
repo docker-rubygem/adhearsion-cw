@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.0.2
+ENV VERSION=1.0.2.1
 
 RUN gem install adhearsion-cw --version ${VERSION} --no-format-exec
 
